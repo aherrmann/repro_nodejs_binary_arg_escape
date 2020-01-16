@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "typescript": "^3.7.0"
+    },
+    "devDependencies": {
+        "@bazel/bazel": "1.1.0",
+        "@bazel/hide-bazel-files": "1.1.0",
+        "@bazel/typescript": "1.1.0"
+    }
+}
