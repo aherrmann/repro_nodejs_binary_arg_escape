@@ -8,9 +8,19 @@ http_archive(
     urls = ["https://github.com/bazelbuild/rules_nodejs/releases/download/1.1.0/rules_nodejs-1.1.0.tar.gz"],
 )
 
+http_archive(
+    name = "vendored_node_10_12_0",
+    build_file_content = """exports_files(["node-v10.12.0-linux-x64/bin/node"])""",
+    sha256 = "4eba2e9a6db95745b769915d58e57df6ca6724ec1f023f76556fce30ceca2367",
+    urls = ["https://nodejs.org/dist/v10.12.0/node-v10.12.0-linux-x64.tar.xz"],
+)
+
 load("@build_bazel_rules_nodejs//:index.bzl", "node_repositories")
 
-node_repositories(package_json = ["//:package.json"])
+node_repositories(
+    package_json = ["//:package.json"],
+    vendored_node = "@vendored_node_10_12_0//:node-v10.12.0-linux-x64",
+)
 
 load("@build_bazel_rules_nodejs//:index.bzl", "yarn_install")
 
