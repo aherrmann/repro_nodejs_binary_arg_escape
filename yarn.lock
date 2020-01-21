@@ -28,20 +28,15 @@
     "@bazel/bazel-linux_x64" "1.1.0"
     "@bazel/bazel-win32_x64" "1.1.0"
 
-"@bazel/hide-bazel-files@0.32.2":
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/@bazel/hide-bazel-files/-/hide-bazel-files-0.32.2.tgz#a482855eafbccb56b1fce0d92ff922c2c6e0a90c"
-  integrity sha512-585XY53mhMZaCjEQJ+aDqkmydWZbuXsKrZsSpoW9YeAVEH0poQY3YhdyCPmMVBo7/l1mkrqpFuOK5BpECfwdtA==
-
-"@bazel/hide-bazel-files@latest":
+"@bazel/hide-bazel-files@1.1.0", "@bazel/hide-bazel-files@latest":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@bazel/hide-bazel-files/-/hide-bazel-files-1.1.0.tgz#a7d46a4aa3717150b54fde05b2f8b6bab733f493"
   integrity sha512-JJ9eMKPBodWugC4Wu0QLe0saDZ971RcP2kjZbG1vJfQHn/gnxvw+4nXDRwei5EzxBsGGuLxY1MkNDtRFIfZr5w==
 
-"@bazel/typescript@0.32.2":
-  version "0.32.2"
-  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.32.2.tgz#c296bb44cb6362a0e3a08ca88752852bc9591ecf"
-  integrity sha512-32zDyvHdYjIa63vtImhl6wy5ErOFVWPkjMT2T035D0UPSKI1tvENW/bRZ3QFlFHqfmJZRBpaI3GiUpO3vUvzmw==
+"@bazel/typescript@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-1.1.0.tgz#b57ac6c6d627577f394a60fb540fbbdf53bcff0d"
+  integrity sha512-QnTdb6rwZUR+KfUuAdyazpkA7BOvrWRe7tkPDdyIZHJdBPYdpJW+AapnFSfxvXEIP0Nwesl5KP6Saau0GPiBLg==
   dependencies:
     protobufjs "6.8.8"
     semver "5.6.0"
