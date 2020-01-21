@@ -1,10 +1,4 @@
-load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary", "pkg_npm")
-load("@npm_bazel_typescript//:index.bzl", "ts_library")
-
-nodejs_binary(
-    name = "test",
-    entry_point = "test.js",
-)
+load("@build_bazel_rules_nodejs//:index.bzl", "pkg_npm")
 
 pkg_npm(
     name = "pkg",
